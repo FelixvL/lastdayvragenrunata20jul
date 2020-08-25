@@ -1,19 +1,22 @@
-class Demo {  // BL
+class Demo {  // BM
 	public static void main(String... args) {
-		HYB h = new LKD();
+		
 		
 	}	
 }
 
-class LKD{			// Dier
+class LKD{			
 
 
 }
 
-class HYB extends LKD{		// Muis
+class HYB extends LKD{		
 
 }
 
+interface CUL{
+	dghi();
+}
 
 
 
