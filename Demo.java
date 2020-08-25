@@ -1,22 +1,13 @@
-class Demo {  // CM
-	public static void main(String... args) throws Throwable{
-		Fruit f = new Fruit();
-		try{
-			f.groeien();
-		catch(Exception e){
-			System.out.println("zie je niet");
-		}finally{
-			System.out.println("zie je nooit");
-		}
-		System.out.println("einde");
+class Demo {  // GA
+	public static void main(String... args){
+		int a = 15;
+		System.out.println(args.length);
+		int[] go = new int[a];
+		System.out.println(go.length);
+		System.out.println(go[a]);
 	}	
 }
-class Fruit{
-	void groeien() throws Exception{
-		System.out.println("ik groei");
-		throw new Error();
-	}
-}
+
 
 
 
