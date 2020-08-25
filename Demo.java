@@ -1,6 +1,6 @@
-class Demo { // HN
-	public final static void main(String... jojo) {
-		System.out.println("doei");
+class Demo { // HB
+	public static void Main(String jojo[]) {
+		System.out.println("hallo");
 	}	
 }
 
