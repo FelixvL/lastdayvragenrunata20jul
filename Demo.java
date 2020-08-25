@@ -1,4 +1,4 @@
-class Demo {  // BQ
+class Demo {  // BR
 	public static void main(String... args) {
 		
 		
@@ -6,14 +6,14 @@ class Demo {  // BQ
 }
 
 class AAA implements III{			
-
+	public AAA dghi(){
+		return new BBB();
+	}
 
 }
 
 class BBB extends AAA {		
-	public AAA dghi(){
-		return new BBB();
-	}
+
 }
 
 interface III{
