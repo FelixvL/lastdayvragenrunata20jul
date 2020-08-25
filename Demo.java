@@ -1,17 +1,13 @@
-class Demo {  // BD
+class Demo {  // BF
 	public static void main(String... args) {
-		new Hond();
-		System.out.println("einde");
+		//float r = 3.2;
+		short g = 6;
+		
 	}	
 
 }
 
-class Hond{
-	Hond Hond(){// geen constructor
-		System.out.println("hoi");
-		return null;
-	}
-}
+
 
 
 
