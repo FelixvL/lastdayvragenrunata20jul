@@ -1,19 +1,21 @@
-class Demo { // HT
+class Demo { // HA
+	int a = fietsen();
+	static int b = new Koe().melken();
 	public static void main(String... args) {
-		System.out.println("ola");
-		lopen();
+		System.out.println("melk");
+		System.out.println(new Demo().a);
 	}	
-	static void lopen(int a){
-		System.out.println("hij doet het1");
-	}
-	static void lopen(short b){
-		System.out.println("hij doet het2");
-	}
-	static void lopen(double... b){
-		System.out.println("hij doet het3");
+	int fietsen(){
+		System.out.println("gaan");
+		return 7;
 	}
 }
-
+class Koe{
+	static int melken(){
+		System.out.println("gaos");
+		return 14;
+	}
+}
 
 
 
