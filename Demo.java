@@ -1,6 +1,7 @@
-class Demo {  // BV
+class Demo {  // BW
 	public static void main(String... args) {
 		JJJ j = new BBB();
+		AAA a = (AAA)j;
 		
 	}	
 }
