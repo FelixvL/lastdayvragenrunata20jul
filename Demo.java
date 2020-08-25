@@ -1,8 +1,8 @@
-class Demo {  // BJ
+class Demo {  // BK
 	public static void main(String... args) {
 		int e;
+		e++;
 		Kip k = new Kip();
-		k.waggelen(e);
 		
 	}	
 
