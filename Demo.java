@@ -1,8 +1,9 @@
-class Demo { // HW
+class Demo { // HZ
 	public static void main(String... args) {
 		System.out.println("pizza");
 		Dier d = new Koe();
-		d.melken();
+		System.out.println(d.leeftijd);
+		d.ademen();
 		
 	}	
 
@@ -17,7 +18,7 @@ class Koe extends Dier{
 class Dier{
 	int leeftijd = 25;
 	void ademen(){
-		System.out.println("ademen");
+		System.out.println("ademen"+leeftijd);
 	}
 }
 
