@@ -1,10 +1,9 @@
-class Demo { // HZ
+class Demo { // HK
 	public static void main(String... args) {
-		System.out.println("pizza");
-		Dier d = new Koe();
-		System.out.println(d.leeftijd);
-		d.ademen();
-		
+		System.out.println("terras");
+		Koe koe = new Koe();
+		Dier dier = (Koe)koe;
+		dier.melken();
 	}	
 
 }
