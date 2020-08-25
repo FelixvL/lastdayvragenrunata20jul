@@ -1,22 +1,25 @@
-class Demo { // HA
-	int a = fietsen();
-	static int b = new Koe().melken();
+class Demo { // HW
 	public static void main(String... args) {
-		System.out.println("melk");
-		System.out.println(new Demo().a);
+		System.out.println("pizza");
+		Dier d = new Koe();
+		d.melken();
+		
 	}	
-	int fietsen(){
-		System.out.println("gaan");
-		return 7;
-	}
+
 }
-class Koe{
-	static int melken(){
+class Koe extends Dier{
+	int leeftijd = 23;
+	int melken(){
 		System.out.println("gaos");
 		return 14;
 	}
 }
-
+class Dier{
+	int leeftijd = 25;
+	void ademen(){
+		System.out.println("ademen");
+	}
+}
 
 
 
