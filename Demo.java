@@ -1,30 +1,14 @@
-class Demo {  // BW
+class Demo {  // CA
 	public static void main(String... args) {
-		JJJ j = new BBB();
-		AAA a = (AAA)j;
-		
+		int a = 13;
+		if(a == 15)
+			System.out.println("hup");
+			System.out.println("hop");
+		System.out.println("einde");
 	}	
 }
 
-class AAA implements III{  			
-	public void lopen(){
 
-	}
-}
-
-class BBB extends AAA implements JJJ{	 	
-	public void fietsen(){
-
-	}
-}
-
-interface III{  
-	void lopen();
-}
-
-interface JJJ{
-	void fietsen();
-}
 
 
 
