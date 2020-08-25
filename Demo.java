@@ -1,7 +1,7 @@
-class Demo { // HP
+class Demo { // HQ
 	public static void main(String... args) {
 		System.out.println("regen");
-		Dier koe = new Dier();
+		Dier koe = new Koe();
 		Koe dier = (Koe)koe;
 		dier.melken();
 	}	
