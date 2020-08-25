@@ -1,9 +1,8 @@
-class Demo { // HQ
+class Demo { // HR
 	public static void main(String... args) {
 		System.out.println("regen");
 		Dier koe = new Koe();
-		Koe dier = (Koe)koe;
-		dier.melken();
+		Boot dier = (Boot)koe;
 	}	
 
 }
@@ -19,6 +18,8 @@ class Dier{
 	void ademen(){
 		System.out.println("ademen"+leeftijd);
 	}
+}
+class Boot{
 }
 
 
