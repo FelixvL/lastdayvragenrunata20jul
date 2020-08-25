@@ -1,8 +1,8 @@
-class Demo { // HK
+class Demo { // HP
 	public static void main(String... args) {
-		System.out.println("terras");
-		Koe koe = new Koe();
-		Dier dier = (Koe)koe;
+		System.out.println("regen");
+		Dier koe = new Dier();
+		Koe dier = (Koe)koe;
 		dier.melken();
 	}	
 
