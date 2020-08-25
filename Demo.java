@@ -5,9 +5,9 @@ class Demo {  // GG
 		try{
 			System.out.println(go[a]);
 			throw new MijnFout();
-		}catch(Exception e){
-			System.out.println("not 20 min");
 		}catch(MijnFout e){
+			System.out.println("not 20 min");
+		}catch(Exception e){
 			System.out.println("klaar");
 		}
 		System.out.println("nog klaarder");
