@@ -1,23 +1,23 @@
-class Demo {  // BN
+class Demo {  // BP
 	public static void main(String... args) {
 		
 		
 	}	
 }
 
-class LKD{			
+class AAA{			
 
 
 }
 
-class HYB extends LKD implements CUL{		
-	LKD dghi(){
-		return new HYB();
+class BBB extends AAA implements III{		
+	public AAA dghi(){
+		return new BBB();
 	}
 }
 
-interface CUL{
-	LKD dghi();
+interface III{
+	III dghi();
 }
 
 
