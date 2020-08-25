@@ -1,15 +1,15 @@
-class Demo {  // CB
+class Demo {  // CD
 	public static void main(String... args) {
-		int a = 13;
-		if(a == 13)
-			if(a==14)
-				System.out.println("hup");
-		else
-			System.out.println("hop");
+		Fruit f = new Fruit();
 		System.out.println("einde");
 	}	
 }
-
+class Fruit{
+	void groeien(){
+		System.out.println("ik groei");
+		throw new RuntimeException();
+	}
+}
 
 
 
