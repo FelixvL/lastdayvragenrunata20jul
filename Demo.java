@@ -1,11 +1,17 @@
-class Demo {  // BA
+class Demo {  // BD
 	public static void main(String... args) {
-		int array = new int[];
+		new Hond();
 		System.out.println("einde");
 	}	
 
 }
 
+class Hond{
+	Hond Hond(){// geen constructor
+		System.out.println("hoi");
+		return null;
+	}
+}
 
 
 
