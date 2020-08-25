@@ -1,6 +1,7 @@
-class Demo {  // CH
+class Demo {  // CJ
 	public static void main(String... args) {
 		Fruit f = new Fruit();
+		f.groeien();
 		System.out.println("einde");
 	}	
 }
