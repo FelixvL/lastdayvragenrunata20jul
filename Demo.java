@@ -1,20 +1,27 @@
-class Demo {  // ID
+class Demo {  // IE
 	public static void main(String... args){
-		Fiets fiets = new Fiets();
+		Fiets fiets = new DirtBike();
 		fiets.fietsen();
 		System.out.println("einde");
 	}	
 }
 class Fiets{
 	int a = 35;
-	void fietsen(){
+	long fietsen(){
 		int a = 25;
 		System.out.println(a);
+		return 9;
 	}
 }
 abstract class Mountainbike extends Fiets{
 	int a = 37;
-	abstract void fietsen();
+	abstract int fietsen();
+}
+class DirtBike extends Mountainbike{
+	int fietsen(){
+		System.out.println("in db");
+		return 7;
+	}
 }
 
 
