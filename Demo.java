@@ -1,4 +1,4 @@
-class Demo {  // IE
+class Demo {  // IF
 	public static void main(String... args){
 		Fiets fiets = new DirtBike();
 		fiets.fietsen();
@@ -15,11 +15,11 @@ class Fiets{
 }
 abstract class Mountainbike extends Fiets{
 	int a = 37;
-	abstract int fietsen();
+	abstract int fietsen(int c);
 }
 class DirtBike extends Mountainbike{
-	int fietsen(){
-		System.out.println("in db");
+	int fietsen(int d){
+		System.out.println("in db"+d);
 		return 7;
 	}
 }
