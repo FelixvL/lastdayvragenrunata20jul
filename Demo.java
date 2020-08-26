@@ -1,16 +1,17 @@
-class Demo {  // JB
+class Demo {  // JD
 	public static void main(String... args){
 		Raam raam = new Raam();
 		raam.kijken();
+	
 	}	
 }
 class Raam implements Doorzichtig{
-	static void kijken(){
-		System.out.println("Kijken in raam");
-	}
+
 }
 interface Doorzichtig{
-	static void kijken();
+	static void kijken(){
+		System.out.println("Het is doorzichtig");
+	}
 }
 
 
