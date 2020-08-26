@@ -1,7 +1,7 @@
-class Demo {  // JD
+class Demo {  // JE
 	public static void main(String... args){
 		Raam raam = new Raam();
-		raam.kijken();
+		Raam.kijken();
 	
 	}	
 }
