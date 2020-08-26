@@ -1,22 +1,20 @@
-class Demo {  // GG
+class Demo {  // IB
 	public static void main(String... args){
-		int a = 15;
-		int[] go = new int[a];
-		try{
-			System.out.println(go[a]);
-			throw new MijnFout();
-		}catch(MijnFout e){
-			System.out.println("not 20 min");
-		}catch(Exception e){
-			System.out.println("klaar");
-		}
-		System.out.println("nog klaarder");
+		Fiets fiets = new Fiets();
+		fiets.fietsen();
+		System.out.println("einde");
 	}	
 }
-
-class MijnFout extends Exception{
+class Fiets{
+	int a = 35;
+	void fietsen(){
+		int a = 25;
+		System.out.println(a);
+	}
 }
-
+class Mountainbike{
+	int a = 37;
+}
 
 
 
