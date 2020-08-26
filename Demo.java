@@ -1,6 +1,6 @@
-class Demo {  // IG
+class Demo {  // IH
 	public static void main(String... args){
-		Fiets fiets = new DirtBike();
+		Mountainbike fiets = new DirtBike();
 		fiets.fietsen(25);
 		System.out.println("einde");
 	}	
