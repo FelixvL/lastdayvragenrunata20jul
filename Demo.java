@@ -1,7 +1,7 @@
-class Demo {  // IF
+class Demo {  // IG
 	public static void main(String... args){
 		Fiets fiets = new DirtBike();
-		fiets.fietsen();
+		fiets.fietsen(25);
 		System.out.println("einde");
 	}	
 }
