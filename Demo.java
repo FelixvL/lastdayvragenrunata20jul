@@ -1,4 +1,4 @@
-class Demo {  // IC
+class Demo {  // ID
 	public static void main(String... args){
 		Fiets fiets = new Fiets();
 		fiets.fietsen();
@@ -12,7 +12,7 @@ class Fiets{
 		System.out.println(a);
 	}
 }
-class Mountainbike extends Fiets{
+abstract class Mountainbike extends Fiets{
 	int a = 37;
 	abstract void fietsen();
 }
